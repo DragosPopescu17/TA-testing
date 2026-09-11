@@ -425,6 +425,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1971215520374646914, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_Color.a
+      value: 0.99607843
+      objectReference: {fileID: 0}
+    - target: {fileID: 1971215520374646914, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1971215520374646914, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1971215520374646914, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4633406952294681934, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
       propertyPath: m_Name
       value: Joker_Pop-up
@@ -470,12 +486,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6471779055670448307, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 30.2342
+      objectReference: {fileID: 0}
+    - target: {fileID: 6471779055670448307, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 6.5052
+      objectReference: {fileID: 0}
+    - target: {fileID: 6471779055670448307, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 4
+      value: 6.6666
       objectReference: {fileID: 0}
     - target: {fileID: 6471779055670448307, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1
+      value: -17.8324
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
