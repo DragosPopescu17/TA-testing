@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class DuplicatesEnabler : MonoBehaviour
 {
-    public GameObject object1;
-    public void EnableObjects(bool value)
+    public GameObject targetObject;
+
+    public void ToggleObject()
     {
-        if (object1 != null) object1.SetActive(value);
+        targetObject.SetActive(!targetObject.activeSelf);
     }
 }
