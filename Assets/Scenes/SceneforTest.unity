@@ -127,6 +127,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1762459001276494368, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2113360421144574036, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 239
+      objectReference: {fileID: 0}
     - target: {fileID: 4633406952294681934, guid: ff7aeb941e6e67546a80d6c768e7bfd9, type: 3}
       propertyPath: m_Name
       value: Joker_Pop-up
