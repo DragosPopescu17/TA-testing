@@ -765,41 +765,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00079345703, y: -11}
   m_SizeDelta: {x: 288.3456, y: 113.5314}
   m_Pivot: {x: 0, y: 0.5}
---- !u!1 &2175123218071925704
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2389192708296150083}
-  m_Layer: 5
-  m_Name: BG_pattern
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2389192708296150083
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175123218071925704}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4474574878671459677}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 331.5, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2388184009326525659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,7 +1949,6 @@ RectTransform:
   - {fileID: 6591983592775139866}
   - {fileID: 2297762888134211721}
   - {fileID: 3750303176216467647}
-  - {fileID: 2389192708296150083}
   - {fileID: 1405720637685990101}
   - {fileID: 6944922151003041508}
   - {fileID: 2113360421144574036}
@@ -4334,6 +4298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Row_2
       objectReference: {fileID: 0}
+    - target: {fileID: 4004299637567201824, guid: 664787b38784db244ad33e7abd0bd72e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5098056191707815982, guid: 664787b38784db244ad33e7abd0bd72e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4435,6 +4403,10 @@ PrefabInstance:
     - target: {fileID: 4004299637567201824, guid: 664787b38784db244ad33e7abd0bd72e, type: 3}
       propertyPath: m_Name
       value: Row_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004299637567201824, guid: 664787b38784db244ad33e7abd0bd72e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098056191707815982, guid: 664787b38784db244ad33e7abd0bd72e, type: 3}
       propertyPath: m_Pivot.x
