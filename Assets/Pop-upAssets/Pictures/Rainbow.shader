@@ -5,7 +5,7 @@ Shader "UI/Moving Rainbow Border"
         [PerRendererData] _MainTex ("Painting", 2D) = "white" {}
         _BorderWidth ("Border Width", Range(0.001, 0.2)) = 0.05
         _CornerRadius ("Corner Radius", Range(0.0, 0.5)) = 0.1
-        _Speed ("Rainbow Speed", Range(-2, 2)) = 0.1
+        _Speed ("Rainbow Speed", Range(-2, 2)) = 0.3
         _Brightness ("Rainbow Brightness", Range(0, 3)) = 1.5
     }
 
