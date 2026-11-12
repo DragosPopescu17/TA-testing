@@ -3568,6 +3568,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8087738371389394449}
     m_Modifications:
+    - target: {fileID: 165675767866195392, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 165675767866195392, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 151858610315259382}
+    - target: {fileID: 165675767866195392, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Open
+      objectReference: {fileID: 0}
+    - target: {fileID: 165675767866195392, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StickerOverlayController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 165675767866195392, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 5010753834273434595}
+    - target: {fileID: 165675767866195392, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.UI.Image, UnityEngine.UI
+      objectReference: {fileID: 0}
     - target: {fileID: 1294672444821851913, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3748,7 +3772,20 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9047441233092091991, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: overlay
+      value: 
+      objectReference: {fileID: 151858610315259382}
+    - target: {fileID: 9047441233092091991, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9047441233092091991, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: stickerImage
+      value: 
+      objectReference: {fileID: 5010753834273434595}
+    m_RemovedComponents:
+    - {fileID: 9047441233092091991, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3758,6 +3795,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1759497429074363500, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
   m_PrefabInstance: {fileID: 467586026185579530}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5010753834273434595 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4896808157288937449, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+  m_PrefabInstance: {fileID: 467586026185579530}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &693435961890680481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4646,6 +4694,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9047441233092091991, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: overlay
+      value: 
+      objectReference: {fileID: 151858610315259382}
+    - target: {fileID: 9047441233092091991, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+      propertyPath: stickerImage
+      value: 
+      objectReference: {fileID: 7702204608748316216}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4656,6 +4712,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1759497429074363500, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
   m_PrefabInstance: {fileID: 2960922534555472337}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7702204608748316216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4896808157288937449, guid: 3cdce05bca6531843b096cd000ef3402, type: 3}
+  m_PrefabInstance: {fileID: 2960922534555472337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &3210245105512608502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4997,6 +5064,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97265329b3ae85d4f9404d4b608369a2, type: 3}
+--- !u!114 &151858610315259382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3357035996405243648, guid: 97265329b3ae85d4f9404d4b608369a2, type: 3}
+  m_PrefabInstance: {fileID: 3210245105512608502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 243cbdef1b5336d448ee247c48d8a65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StickerOverlayController
 --- !u!224 &8910824564246094852 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6279301358310217458, guid: 97265329b3ae85d4f9404d4b608369a2, type: 3}
