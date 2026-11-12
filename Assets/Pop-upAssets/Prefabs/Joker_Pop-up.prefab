@@ -111,6 +111,67 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -35}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &573325404733267825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8801388338219234782}
+  - component: {fileID: 8386894977524943777}
+  - component: {fileID: 223452626105529602}
+  m_Layer: 5
+  m_Name: Raycast Receiver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8801388338219234782
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573325404733267825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2759920928461652409}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8386894977524943777
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573325404733267825}
+  m_CullTransparentMesh: 1
+--- !u!114 &223452626105529602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573325404733267825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9353b7d498b954a06ae1228982925d0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RaycastReceiver
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1114884417157264519
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -71.031}
+  m_AnchoredPosition: {x: 0, y: -86.4}
   m_SizeDelta: {x: 230.52, y: 82.35}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &9186913052712004634
@@ -405,7 +466,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: -6
     m_Right: 77
-    m_Top: -38
+    m_Top: -39
     m_Bottom: -30
   m_ChildAlignment: 4
   m_Spacing: -50
@@ -961,7 +1022,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2899886758197259310}
+      - m_Target: {fileID: 6777288346094786146}
         m_TargetAssemblyTypeName: DuplicatesEnabler, Assembly-CSharp
         m_MethodName: ToggleObject
         m_Mode: 1
@@ -985,7 +1046,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 707978281014144458}
+      - m_Target: {fileID: 2826004137859980549}
         m_TargetAssemblyTypeName: DuplicatesEnabler, Assembly-CSharp
         m_MethodName: ToggleObject
         m_Mode: 1
@@ -1009,7 +1070,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8917404474376311217}
+      - m_Target: {fileID: 4787468407088416598}
         m_TargetAssemblyTypeName: DuplicatesEnabler, Assembly-CSharp
         m_MethodName: ToggleObject
         m_Mode: 1
@@ -2712,7 +2773,7 @@ GameObject:
   - component: {fileID: 1465267562521293795}
   - component: {fileID: 4301785886578903409}
   - component: {fileID: 7806756632219138377}
-  - component: {fileID: 2899886758197259310}
+  - component: {fileID: 6777288346094786146}
   m_Layer: 5
   m_Name: Scroll_1_unlocked
   m_TagString: Untagged
@@ -2822,7 +2883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
---- !u!114 &2899886758197259310
+--- !u!114 &6777288346094786146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2831,7 +2892,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6407442560589369464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d169b280fda01848bc11ab004f5fdb7, type: 3}
+  m_Script: {fileID: 11500000, guid: bc7ce14afe48b844aab175f91d7c04b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuplicatesEnabler
   targetObject: {fileID: 6407442560589369464}
@@ -2934,6 +2995,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 727103804862954570}
+  - {fileID: 8801388338219234782}
   m_Father: {fileID: 5105107116059416935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3018,7 +3080,7 @@ GameObject:
   - component: {fileID: 7205205475990917967}
   - component: {fileID: 6489934002815098734}
   - component: {fileID: 3902875138318162147}
-  - component: {fileID: 707978281014144458}
+  - component: {fileID: 2826004137859980549}
   m_Layer: 5
   m_Name: Scroll2_unlocked
   m_TagString: Untagged
@@ -3128,7 +3190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
---- !u!114 &707978281014144458
+--- !u!114 &2826004137859980549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3137,7 +3199,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7575155981995690803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d169b280fda01848bc11ab004f5fdb7, type: 3}
+  m_Script: {fileID: 11500000, guid: bc7ce14afe48b844aab175f91d7c04b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuplicatesEnabler
   targetObject: {fileID: 7575155981995690803}
@@ -3229,7 +3291,7 @@ GameObject:
   - component: {fileID: 3790794500845199821}
   - component: {fileID: 4255022450294548041}
   - component: {fileID: 3833049173310458120}
-  - component: {fileID: 8917404474376311217}
+  - component: {fileID: 4787468407088416598}
   m_Layer: 5
   m_Name: Scroll3_unlocked
   m_TagString: Untagged
@@ -3339,7 +3401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
---- !u!114 &8917404474376311217
+--- !u!114 &4787468407088416598
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3348,7 +3410,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7705213250573623894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d169b280fda01848bc11ab004f5fdb7, type: 3}
+  m_Script: {fileID: 11500000, guid: bc7ce14afe48b844aab175f91d7c04b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuplicatesEnabler
   targetObject: {fileID: 7705213250573623894}
