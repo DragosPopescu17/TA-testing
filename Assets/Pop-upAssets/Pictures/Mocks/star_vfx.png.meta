@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0bf4968bca438e44f95f876d7413c820
+guid: 0a331d9b17f34264db03c2bcfca7d1ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4425323048855696692
-    second: Star_particle_mock_0
+      213: -1263523756707113600
+    second: star_vfx_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Star_particle_mock_0
+      name: star_vfx_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1312
-        height: 1199
+        width: 3136
+        height: 3376
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cca8b9822281692c0800000000000000
-      internalID: -4425323048855696692
+      spriteID: 085943476df077ee0800000000000000
+      internalID: -1263523756707113600
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Star_particle_mock_0: -4425323048855696692
+      star_vfx_0: -1263523756707113600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
