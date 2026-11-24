@@ -69,7 +69,7 @@ MonoBehaviour:
   m_IsTrail: 0
   m_IgnoreCanvasScaler: 0
   m_AbsoluteMode: 0
-  m_Scale3D: {x: 10.82, y: 10.82, z: 10.82}
+  m_Scale3D: {x: 17.7, y: 17.7, z: 17.7}
   m_AnimatableProperties: []
   m_Particles:
   - {fileID: 435556554053126940}
@@ -849,7 +849,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0.01, y: 0, z: 0}
     m_Rotation: {x: 90, y: 0, z: 0}
-    m_Scale: {x: 3.29, y: -9.42, z: 1}
+    m_Scale: {x: 3.29, y: 1.7398918, z: 0}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -939,7 +939,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 3
       minMaxState: 0
-      scalar: 2
+      scalar: 200
       minScalar: 10
       maxCurve:
         serializedVersion: 2
